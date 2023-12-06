@@ -1,4 +1,5 @@
-SRC			=	main.c
+SRC			=	main.c \
+				add_program.c \
 
 NAME		=	program
 
