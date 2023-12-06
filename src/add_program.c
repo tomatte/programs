@@ -4,7 +4,7 @@ char *get_path(void)
 {
 	const char *user = getlogin();
 	const int len = strlen(user) + strlen("/home//program/database");
-	char *path = malloc(sizeof(char) * (len + 1));
+	char *path = talloc(len + 1, sizeof(char));
 	strcpy(path, "/home/");
 	strcat(path, user);
 	strcat(path, "/program/database");
@@ -18,6 +18,6 @@ void	add_program(char *name)
 	
 	const char *user = getlogin();
 	// const int pid = open();
-	//get_path();
-	
+	get_path();
+	clear_addrs();
 }

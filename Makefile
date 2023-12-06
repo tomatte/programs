@@ -3,6 +3,7 @@ SRC			=	main.c \
 				lst_add_back.c \
 				lst_new.c \
 				lst_clear.c \
+				talloc.c \
 
 NAME		=	program
 

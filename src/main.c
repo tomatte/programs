@@ -15,5 +15,6 @@ int	main(int argc, char *argv[])
 	lst_clear(&test);
 	if (test == NULL)
 		printf("it's null!!!\n");
+	clear_addrs();
 	return (0);
 }
