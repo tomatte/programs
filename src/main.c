@@ -11,5 +11,9 @@ int	main(int argc, char *argv[])
 
 	lst_add_back(&test, lst_new(strdup("acho q ta na hora")));
 	printf("result: %s\n", (char *) test->next->content);
+
+	lst_clear(&test);
+	if (test == NULL)
+		printf("it's null!!!\n");
 	return (0);
 }

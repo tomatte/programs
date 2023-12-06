@@ -17,6 +17,8 @@ void	add_program(char *name);
 //lst
 void	lst_add_back(t_list **lst, t_list *node);
 t_list *lst_new(void *content);
+void	lst_clear(t_list **lst);
+
 
 
 

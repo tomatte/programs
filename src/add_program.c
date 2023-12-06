@@ -18,6 +18,6 @@ void	add_program(char *name)
 	
 	const char *user = getlogin();
 	// const int pid = open();
-	get_path();
+	//get_path();
 	
 }

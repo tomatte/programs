@@ -2,6 +2,8 @@
 
 void	lst_add_back(t_list **lst, t_list *node)
 {
+	if (node == NULL)
+		return ;
 	if (*lst == NULL)
 	{
 		*lst = node;

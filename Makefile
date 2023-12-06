@@ -2,6 +2,7 @@ SRC			=	main.c \
 				add_program.c \
 				lst_add_back.c \
 				lst_new.c \
+				lst_clear.c \
 
 NAME		=	program
 
