@@ -8,9 +8,7 @@ char *get_path(void)
 	strcpy(path, "/home/");
 	strcat(path, user);
 	strcat(path, "/program/database");
-	printf("len: %d\n", len);
-	printf("end: %d\n", strlen("/home/suzy/program/database"));
-	printf("len: %d   -   path: %s\n", strlen(path), path);
+	return (path);
 }
 
 void	add_program(char *name)

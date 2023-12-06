@@ -6,12 +6,18 @@
 #include <unistd.h>
 #include <string.h>
 
-void	add_program(char *name);
-
 typedef struct t_list
 {
 	void *content;
-	t_list *next;
+	struct t_list *next;
 }	t_list;
+
+void	add_program(char *name);
+
+//lst
+void	lst_add_back(t_list **lst, t_list *node);
+t_list *lst_new(void *content);
+
+
 
 #endif

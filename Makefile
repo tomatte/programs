@@ -1,5 +1,7 @@
 SRC			=	main.c \
 				add_program.c \
+				lst_add_back.c \
+				lst_new.c \
 
 NAME		=	program
 
@@ -8,6 +10,7 @@ OBJS_DIR	=	objects
 OBJS			=	$(patsubst %.c,$(OBJS_DIR)/%.o, $(SRC))
 
 VPATH		=	./src \
+				./src/list \
 
 CFLAGS		=	-I./
 
