@@ -4,6 +4,7 @@ SRC			=	main.c \
 				lst_new.c \
 				lst_clear.c \
 				talloc.c \
+				select_option.c \
 
 NAME		=	program
 

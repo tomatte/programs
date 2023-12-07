@@ -26,5 +26,6 @@ void	lst_clear(t_list **lst);
 void	clear_addrs(void);
 void	*talloc(size_t nmemb, size_t size);
 void	track_mem(void *mem);
+void	select_option(int argc, char **argv);
 
 #endif
